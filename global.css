@@ -1,0 +1,78 @@
+#top_nav {
+  background: #0C287D;
+  color: white;
+}
+
+header {
+  background: url('https://www.postwire.com/wp-content/uploads/2013/09/backbanner2.jpg');
+  background-size: cover;
+  min-height: 500px;
+  color: white;
+  position: relative;
+}
+
+header #head_copy {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  font-family: sans-serif;
+  width: 40%;
+  text-shadow: 2px 2px #5D5D5D;
+}
+
+#head_copy h1 {
+  font-size: 48px;
+  line-height: 120%;
+  margin: 0;
+}
+
+#head_copy p {
+  font-size: 24px;
+  margin: 5px;
+}
+
+.green_button {
+  position: absolute;
+  top: 340px;
+  left: 160px;
+  background: #52DB17;
+  border: 2px solid white;
+  height: 35px;
+  width: 160px;
+  text-align: center;
+}
+
+.green_button p {
+  margin: 7px;
+}
+
+#survey {
+  background: #49A0DD;
+  color: white;
+  clear: both;
+}
+
+#sales {
+  background: white;
+  color: gray;
+}
+
+#testimonials {
+  background: #BECCD0;
+  color: #6CB1B7;
+}
+
+#salesforce {
+  background: white;
+  color: gray;
+}
+
+#call_to_action {
+  background: #49A0DD;
+    color: white;
+}
+
+footer {
+  background: #BECCD0;
+  color: #6CB1B7;
+}
