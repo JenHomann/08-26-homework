@@ -1,3 +1,7 @@
+body {
+  width: 1400px;
+}
+
 #top_nav {
   background: #0C287D;
   color: white;
@@ -55,11 +59,51 @@ header #head_copy {
 #sales {
   background: white;
   color: gray;
+  overflow: hidden;
+  position: relative;
+  padding: 40px;
+  height: 550px;
+  font-family: sans-serif;
+}
+
+#sales_copy {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  float: left;
+  width: 27%;
+}
+
+#sales_copy h2 {
+  font-size: 36px;
+  line-height: 120%;
+  margin: 0;
+}
+
+#sales_copy p {
+  font-size: 18px;
+  margin: 0;
+  line-height: 120%;
+  padding-top: 3px;
+}
+
+#sales_copy img {
+  position: absolute;
+  left: -1350px;
+}
+
+#sales_video {
+  float: right;
+}
+
+#sales_video img {
+  width: 700px;
 }
 
 #testimonials {
   background: #BECCD0;
   color: #6CB1B7;
+  clear: both;
 }
 
 #salesforce {
