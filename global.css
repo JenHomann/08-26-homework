@@ -62,7 +62,7 @@ header #head_copy {
   overflow: hidden;
   position: relative;
   padding: 40px;
-  height: 550px;
+  height: 450px;
   font-family: sans-serif;
 }
 
@@ -109,6 +109,36 @@ header #head_copy {
 #salesforce {
   background: white;
   color: gray;
+  overflow: hidden;
+  position: relative;
+  padding: 40px;
+  height: 480px;
+  font-family: sans-serif;
+}
+
+#salesforce_copy {
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  float: left;
+  width: 33%;
+}
+
+#salesforce_copy h2 {
+  font-size: 36px;
+  line-height: 120%;
+  margin: 0;
+}
+
+#salesforce_copy p {
+  font-size: 18px;
+  margin: 0;
+  line-height: 120%;
+  padding-top: 3px;
+}
+
+#salesforce_image {
+  float: right;
 }
 
 #call_to_action {
