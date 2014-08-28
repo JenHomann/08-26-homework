@@ -41,13 +41,19 @@ header #head_copy {
   left: 160px;
   background: #52DB17;
   border: 2px solid white;
-  height: 35px;
-  width: 160px;
-  text-align: center;
+  height: 41px;
+  width: 161px;
+}
+
+.green_button a {
+  color: white;
+  text-decoration: none;
 }
 
 .green_button p {
-  margin: 7px;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 15px;
 }
 
 #survey {
@@ -113,10 +119,36 @@ header #head_copy {
   position: relative;
   padding: 40px;
   height: 480px;
-  font-family: sans-serif;
+}
+
+.green_button_2 {
+  position: absolute;
+  top: 340px;
+  left: 150px;
+  background: #52DB17;
+  border: 2px solid white;
+  height: 41px;
+  width: 161px;
+  text-align: center;
+  box-shadow: 5px 5px #D8D8D8
+}
+
+.green_button_2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.green_button_2 p {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 #salesforce_copy {
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0 !important;
   position: absolute;
   top: 60px;
   left: 150px;
@@ -126,14 +158,14 @@ header #head_copy {
 
 #salesforce_copy h2 {
   font-size: 36px;
-  line-height: 120%;
+  line-height: 160%;
   margin: 0;
 }
 
 #salesforce_copy p {
   font-size: 18px;
   margin: 0;
-  line-height: 120%;
+  line-height: 160%;
   padding-top: 3px;
 }
 
@@ -142,11 +174,66 @@ header #head_copy {
 }
 
 #call_to_action {
+  position: relative;
   background: #49A0DD;
-    color: white;
+  color: white;
+  height: 440px;
+  padding-left: 100px;
+  z-index: -1;
+}
+
+.CTA_option img {
+  position: absolute;
+  top: -30px;
+  left: 150px;
+  z-index: 1;
+}
+
+.CTA_option {
+  overflow: visible;
+  position: relative;
+  width: 50%;
+  float: left;
+  background: white;
+  height: 250px;
+  width: 320px;
+  float: left;
+  padding: 70px 40px 0px 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.CTA_option h3 {
+  color: #41474B;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0 !important;
+  text-transform: none;
+  font-size: 28px;
+}
+
+.CTA_option p {
+  color: #41474B;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  margin-bottom: 15px;
+  text-align: center !important;
+  padding: 0 20px;
+}
+
+.CTA_option a {
+  color: #49A0DD;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  text-align: center !important;
 }
 
 footer {
   background: #BECCD0;
   color: #6CB1B7;
+  clear: both;
 }
