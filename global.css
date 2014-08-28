@@ -158,12 +158,15 @@ header #head_copy {
   overflow: hidden;
   position: relative;
   height: 450px;
-  font-family: sans-serif;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0 !important;
 }
 
 #sales_copy {
   position: absolute;
-  top: 20px;
+  top: 10px;
   left: 150px;
   float: left;
   width: 27%;
@@ -171,20 +174,20 @@ header #head_copy {
 
 #sales_copy h2 {
   font-size: 36px;
-  line-height: 120%;
+  line-height: 160%;
   margin: 0;
 }
 
 #sales_copy p {
   font-size: 18px;
   margin: 0;
-  line-height: 120%;
+  line-height: 160%;
   padding-top: 3px;
 }
 
 #sales_copy img {
   position: absolute;
-  top: 150px;
+  top: 165px;
   left: -1350px;
 }
 
